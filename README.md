@@ -13,7 +13,7 @@ This module takes in a wikipedia url and returns a list of links that are relate
 #### SortPopularLinks
 This module takes as an argument a list of wikipedia links and returns a list of the wikipedia links along with their view count sorted from highest to lowest views.	 
 #### RetrievePageInfo
-This module takes in a url of given page as input and returns a list containing the page header, summary, and image to be used in the pdf doc.			
+This module takes in a url of given page as input and returns a list containing the page header, summary, and image to be used in the formatted HTML document.			
 #### GenerateHTMLReport
 This module takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided topic.
 #### LogicModule_web
