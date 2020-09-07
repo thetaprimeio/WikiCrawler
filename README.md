@@ -1,7 +1,7 @@
 # WikiCrawler
 
 ### Introduction 
-WikiCrawler is a web scraper that aims to help people in exploring their interests and learning more about a subject by providing the user with formatted HTML documents of wikipedia article summaries and images along with suggestions for further reading. WikiCrawler makes use of the wikipedia REST API to obtain aggregate article view counts which it uses to sort related articles from most to least relevant. 
+WikiCrawler is a web scraper that aims to help people explore their interests and learn more about a subject by providing the user with formatted HTML documents of wikipedia article summaries and images along with suggestions for further reading. WikiCrawler makes use of the Wikimedia REST API to obtain aggregate article view counts which it uses to sort related articles from most to least relevant. 
 
 ### Program modules
 The WikiCrawler functionality has been implemented as six distinct program modules
@@ -37,4 +37,5 @@ To use WikiCrawler, simply run server.py and provide a topic of interest when pr
 
 For any communication relating to this project, please email us at contact@thetaprime.io.
 
+![alt text](thetaprime_shape.png)
 ![alt text](thetaprime_shape.png)
