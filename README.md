@@ -38,4 +38,3 @@ To use WikiCrawler, simply run server.py and provide a topic of interest when pr
 For any communication relating to this project, please email us at contact@thetaprime.io.
 
 ![alt text](thetaprime_shape.png)
-![alt text](thetaprime_shape.png)
