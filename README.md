@@ -9,13 +9,13 @@ The WikiCrawler functionality has been implemented as six distinct program modul
 #### RetrieveURL 
 This module takes in a string specifying a topic of interest and returns the best matched Wikipedia page article for the topic.
 #### RelatedLinks
-This takes in a wikipedia url and returns a list of links that are related to a given wikipedia article. These links are retrieved from either the "see also" section or the first page in the related categories section of a wikipedia page. 
+This module takes in a wikipedia url and returns a list of links that are related to the given article. These links are retrieved from either the "see also" section or the first link in the related categories section of a wikipedia page. 
 #### SortPopularLinks
 This module takes as an argument a list of wikipedia links and returns a list of the wikipedia links along with their view count sorted from highest to lowest views.	 
 #### RetrievePageInfo
-This module takes in a url of given page as input, returns a list containing the page header, summary, and image to be used in the pdf doc.			
+This module takes in a url of given page as input and returns a list containing the page header, summary, and image to be used in the pdf doc.			
 #### GenerateHTMLReport
-This module takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided 
+This module takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided topic.
 #### LogicModule_web
 Logic module combining all the modules together to run the program. This is the web version.
 
