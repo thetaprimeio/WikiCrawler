@@ -1,8 +1,7 @@
 # WikiCrawler
 
 ### Introduction 
-WikiCrawler is a web scraper that aims to help people in exploring their interests and learning more about a subject by providing summary documents of wikipedia articles along with suggestions
-for further reading.
+WikiCrawler is a web scraper that aims to help people in exploring their interests and learning more about a subject by providing formatted HTML documents of wikipedia article summaries along with suggestions for further reading. WikiCrawler makes use of the wikipedia rest api to obtain aggregate article view counts which it uses to sort related articles from most to least relevant. 
 
 ### Program modules
 The WikiCrawler functionality has been implemented as six distinct program modules
@@ -23,7 +22,7 @@ Logic module combining all the modules together to run the program. This is the 
 ### Conclusions 
 1. Relevance of topic suggestions can be improved by considering additional metrics 
 2. Improvement in run time and category search space can be achieved by hosting on a cloud server 
-3. Additional product features such as a automated emails containing summary documents can be added to improve user experience  
+3. Additional product features such as automated emails containing summary documents can be added to improve user experience  
 
 ### How to run the code
 To use WikiCrawler, simply run server.py and provide a topic of interest when prompted. Ensure that you have the following libraries installed: 
@@ -31,6 +30,8 @@ To use WikiCrawler, simply run server.py and provide a topic of interest when pr
 - requests
 - urllib3
 - wikipediaapi
+- socketserver
+- http
 
 ### Contact information 
 
