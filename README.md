@@ -13,9 +13,9 @@ This takes in a wikipedia url and returns a list of links that are related to a 
 #### SortPopularLinks
 This module takes as an argument a list of wikipedia links and returns a list of the wikipedia links along with their view count sorted from highest to lowest views.	 
 #### RetrievePageInfo
-This takes in a wikipedia url and returns a list of links that are related to a given wikipedia article. These links are retrieved from either the "see also" section or the first page in the related categories section of a wikipedia page. 
+This module takes in a url of given page as input, returns a list containing the page header, summary, and image to be used in the pdf doc.			
 #### GenerateHTMLReport
-Takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided 
+This module takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided 
 #### LogicModule_web
 Logic module combining all the modules together to run the program. This is the web version.
 
