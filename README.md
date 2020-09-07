@@ -1,7 +1,7 @@
 # WikiCrawler
 
 ### Introduction 
-WikiCrawler aims to help people in exploring their interests and learning more about a subject by providing summary documents of wikipedia articles along with suggestions
+WikiCrawler is a web scraper that aims to help people in exploring their interests and learning more about a subject by providing summary documents of wikipedia articles along with suggestions
 for further reading.
 
 ### Program modules
