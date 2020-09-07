@@ -11,10 +11,10 @@
 ####################################################################################################
 
 
-from retrieveURL import retrieveURL
+from RetrieveURL import retrieveURL
 from RelatedLinks import RelatedLinks
 from RetrievePageInfo import RetrievePageInfo
-from generateHTMLReport import generateHTMLReport
+from GenerateHTMLReport import generateHTMLReport
 
 
 print('|---------- Welcome to WikiCrawler ----------|')
