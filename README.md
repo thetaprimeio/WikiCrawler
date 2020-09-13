@@ -19,7 +19,7 @@ This takes in a wikipedia url and returns a list of links that are related to a 
 #### GenerateHTMLReport
 Takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided 
 
-![alt text](WikiCrawlerExample.png)
+![alt text](WikiCrawlerExample.PNG)
 #### LogicModule_console
 This module is responsible for combining the other modules together into one program. When you run this file it will allow user interaction via the console.
 #### LogicModule_web
