@@ -6,7 +6,9 @@
 ### Introduction 
 WikiCrawler is a web scraper that helps people explore their interests and learn more about a subject by providing the user with formatted HTML documents of wikipedia article summaries and images along with suggestions for further reading. WikiCrawler makes use of the Wikimedia REST API to obtain aggregate article view counts which it uses to sort related articles from most to least relevant. The two most relevant articles are then presented to the user as suggestions for further reading.
 
-![alt text](WikiCrawler.PNG)
+<p align="center">
+  <img width="460" height="300" src="WikiCrawler.PNG">
+</p>
 
 ### Program modules
 The WikiCrawler functionality has been implemented as six distinct program modules
