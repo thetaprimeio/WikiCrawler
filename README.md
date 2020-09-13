@@ -47,10 +47,16 @@ This is the HTML file that contains user interface.
 
 ### How to run the code
 To use WikiCrawler, simply run server.py, go to localhost:8080/ on your web browser and provide a topic of interest when prompted. Ensure that you have the following libraries installed: 
-- beautifulsoup4
-- requests
-- urllib3
-- wikipediaapi
+
+```
+import beautifulsoup4
+import urllib3
+import wikipediaapi
+import requests
+import socketserver
+import http
+
+```
 
 ### Contact information 
 
