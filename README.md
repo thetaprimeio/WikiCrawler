@@ -20,13 +20,13 @@ This takes in a wikipedia url and returns a list of links that are related to a 
 Takes in a set of page summaries and outputs a corresponding HTML newsletter for the user provided 
 
 ![alt text](WikiCrawlerExample.png)
-### LogicModule_console
+#### LogicModule_console
 This module is responsible for combining the other modules together into one program. When you run this file it will allow user interaction via the console.
 #### LogicModule_web
 This module is responsible for combining the other modules together into one program. This module is utilized when using the web version of this program.
-### Server.py
+#### Server.py
 This file using the http python library to create a local web server in order to provide the user with a pleasant HTML interface.
-### index.html
+#### index.html
 This is the HTML file that contains user interface.
 
 ### Conclusions 
